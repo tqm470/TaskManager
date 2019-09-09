@@ -5,7 +5,6 @@ namespace TaskManagerApi.Models
 {
     public class Chore
     {
-        [Required(ErrorMessage = "Field {0} is needed")]
         public int Id { get; set; }
 
         public string Owner{ get; set; }
