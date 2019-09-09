@@ -7,7 +7,6 @@ namespace TaskManagerApi.Models
         [Required(ErrorMessage = "Field {0} is needed")]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Field {0} is needed")]
         public string Owner{ get; set; }
 
         [Required(ErrorMessage = "Field {0} is needed")]

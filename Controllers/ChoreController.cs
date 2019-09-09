@@ -87,6 +87,7 @@ namespace TaskManagerApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Chore>> PostChore(Chore chore)
         {
+            chore.Owner = User.Identity.Name;
             _context.Chores.Add(chore);
             await _context.SaveChangesAsync();
 
