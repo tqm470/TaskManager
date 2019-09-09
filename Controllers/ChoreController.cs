@@ -20,26 +20,14 @@ namespace TaskManagerApi.Controllers
 
         public ChoreController(AppDbContext context) => _context = context;
 
-        /* 
-        [HttpGet]
-        public string GetName()
-        {
-            if(User.Identity.IsAuthenticated)
-            {
-                return User.Identity.Name;
-            }
-            return "shit";
-        }
-        */
-
-        /*
         //GET: api/Chore
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Chore>>> GetChores()
         {
             return await _context.Chores.ToListAsync();
         }
-        */
+
+
         //GET: api/Chore
         [HttpGet("{id}")]
         public async Task<ActionResult<Chore>> GetChore(int id)
