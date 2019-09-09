@@ -24,7 +24,8 @@ namespace TaskManagerApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Chore>>> GetChores()
         {
-            return await _context.Chores.ToListAsync();
+            var data = _context.Chores.Where(a => a.Owner == User.Identity.Name);
+            return await data.ToListAsync();
         }
 
 
@@ -38,6 +39,10 @@ namespace TaskManagerApi.Controllers
             {
                 return NotFound();
             }
+            if(chore.Owner != User.Identity.Name)
+            {
+                return Unauthorized();
+            }
 
             return chore;
 
@@ -50,6 +55,10 @@ namespace TaskManagerApi.Controllers
             if(id != chore.Id)
             {
                 return BadRequest();
+            }
+            if(chore.Owner != User.Identity.Name)
+            {
+                return Unauthorized();
             }
 
             _context.Entry(chore).State = EntityState.Modified;
@@ -92,6 +101,14 @@ namespace TaskManagerApi.Controllers
             if(chore == null)
             {
                 NotFound();
+            }
+            if(chore.Owner != User.Identity.Name)
+            {
+                return Unauthorized();
+            }
+            if(!chore.Completed)
+            {
+                return BadRequest();
             }
 
             _context.Chores.Remove(chore);
