@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace TaskManagerApi.Models
@@ -13,5 +14,7 @@ namespace TaskManagerApi.Models
         public string Name { get; set; }
         
         public bool Completed { get; set; } = false;
+
+        public DateTime CompletionDate { get; set; }
     }
 }
