@@ -1,0 +1,14 @@
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\bin\Debug\netcoreapp2.2\TaskManager.deps.json
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\bin\Debug\netcoreapp2.2\TaskManager.runtimeconfig.json
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\bin\Debug\netcoreapp2.2\TaskManager.runtimeconfig.dev.json
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\bin\Debug\netcoreapp2.2\TaskManager.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\bin\Debug\netcoreapp2.2\TaskManager.pdb
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\obj\Debug\netcoreapp2.2\TaskManager.csprojAssemblyReference.cache
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\obj\Debug\netcoreapp2.2\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\obj\Debug\netcoreapp2.2\TaskManager.RazorAssemblyInfo.cache
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\obj\Debug\netcoreapp2.2\TaskManager.RazorAssemblyInfo.cs
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\obj\Debug\netcoreapp2.2\TaskManager.AssemblyInfoInputs.cache
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\obj\Debug\netcoreapp2.2\TaskManager.AssemblyInfo.cs
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\obj\Debug\netcoreapp2.2\TaskManager.RazorTargetAssemblyInfo.cache
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\obj\Debug\netcoreapp2.2\TaskManager.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\TaskManager\obj\Debug\netcoreapp2.2\TaskManager.pdb
